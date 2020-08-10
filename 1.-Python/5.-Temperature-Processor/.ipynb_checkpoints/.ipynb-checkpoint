@@ -133,9 +133,17 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 5,
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Avg temperature of the day is  60.25\n"
+     ]
+    }
+   ],
    "source": [
     "avg_temp = sum(temperatures_C)/len(temperatures_C)\n",
     "print('Avg temperature of the day is ', avg_temp)"
@@ -150,9 +158,17 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 6,
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "62.0\n"
+     ]
+    }
+   ],
    "source": [
     "temperatures_C[3]=(temperatures_C[2]+temperatures_C[4])/2\n",
     "print(temperatures_C[3])"
@@ -172,9 +188,17 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 7,
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[91.4, 150.8, 149.0, 143.6, 138.2, 140.0, 143.6, 147.2, 158.0, 168.8, 176.0, 177.8, 176.0, 181.4, 194.0, 174.2, 141.8, 127.4, 122.0, 120.2, 127.4, 118.4, 113.0, 102.2]\n"
+     ]
+    }
+   ],
    "source": [
     "temperatures_F=[]\n",
     "\n",
@@ -202,9 +226,17 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 8,
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The cooling system needs to be changed.\n"
+     ]
+    }
+   ],
    "source": [
     "if len(high_temp) > 4 or max_temp > 80 or avg_temp > 65:\n",
     "    print('The cooling system needs to be changed.')\n",
@@ -286,6 +318,13 @@
    "source": [
     "#### 5. Find the standard deviation of the temperature lists (ºC and ºF). What is the relation between both standard deviations?"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
   },
   {
    "cell_type": "code",

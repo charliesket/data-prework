@@ -172,12 +172,19 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 5,
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Nb of arrows outside target 2\n"
+     ]
+    }
+   ],
    "source": [
     "c=0\n",
-    "\n",
     "d=0\n",
     "\n",
     "for i in distances:\n",
@@ -188,6 +195,13 @@
     "        \n",
     "print('Nb of arrows outside target', c)"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
